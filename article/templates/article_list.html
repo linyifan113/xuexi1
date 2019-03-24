@@ -1,0 +1,9 @@
+<html>
+<head>
+</head>
+<body>
+	{% for article in articles %}
+		<a href="/article/{{ article.pk}}"> {{ article.title }}</a>
+	{% endfor %}
+</body>
+</html>
